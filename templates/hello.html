@@ -1,0 +1,8 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<p>Привет {{ name }}</p><br>
+<a href="{{ url_for('log_out') }}">
+    <button type="submit">Уйти</button></a>
+
+{% endblock %}
